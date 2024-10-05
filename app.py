@@ -2,7 +2,7 @@
 from flask import Flask, render_template, url_for, request, redirect
 #################################################################################################################
 # Initialization of the flask application 
-application = Flask(__name__);
+application = Flask(__name__)
 #################################################################################################################
 # Sample data for demonstration purposes
 playlists = [
@@ -84,8 +84,6 @@ def admin():
 @application.route("/explore")
 def explore():
     return render_template('explore.html')
-######################################################################################################
-
 ######################################################################################################
 # Starting point
 if __name__ == '__main__':

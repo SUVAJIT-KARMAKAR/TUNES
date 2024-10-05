@@ -1,57 +1,67 @@
+# TUNES 
+**A simple flask application to take care of your music collection**.
 
 ![LOGO](images/TUNESLOGO.png)
 
 
-## TUNES USING FLASK
-*A SIMPLE, EAST AND ONE STOP SOLUTION FOR MANAGING YOUR MUSIC LOADOUT*
-
-
-### BADGES
-
-
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
-
-[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
-
-[![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
-
-
-## DEPLOYMENT
-
-Git clone this application and run  locally 
-
-```bash
-  git clone git@github.com:SUVAJITKARMAKAR/TUNES-MUSIC-LOADOUT.git
-```
+## PACKAGES FOR THE PROJECT
 
 ```bash
   pip install flask
 ```
+**Flask**  is a lightweight, micro web framework for Python, designed for simplicity and flexibility. It allows developers to build web applications quickly with minimal boilerplate code. Flask supports extensions for adding features like database integration, form handling, and authentication, making it versatile for both small projects and scalable applications..
 
-To run the application 
+
+## RUNNING THE PROJECT LOCALLY 
+Git clone the project using the project HTTP / SSH link.
+
 ```bash
-  python app.py
+  git clone <link>
+```
+Use the 'll' or 'ls-al' terminal command to list the directories and directory structure.
+```bash
+  ll
+  ls -al
+```
+```bash
+  cd TUNES/
+```
+Installing the dependency packages for the project.
+```bash
+  pip install -r requirements.txt
 ```
 
 
-## FEATURES
+## API ROUTE
 
-- All dark mode so that you always have a comfortable eyr
-- Real-time music loadout management
-- Awesome UI/UX design
-- Multi-platform support
+```http
+    http://127.0.0.1:5000 
+```
+
+## API ENDPOINTS
+The home page of the application
+```bash
+    http://127.0.0.1:5000/
+    http://127.0.0.1:5000/home
+```
+The registration page
+```bash
+    http://127.0.0.1:5000/registration
+```
+The user / customer login page
+```bash
+    http://127.0.0.1:5000/login
+```
+The admin inventory page
+```bash
+    http://127.0.0.1:5000/admin
+```
+The all explore page
+```bash
+    http://127.0.0.1:5000/explore
+```
 
 
 
-### SCREENSHOTS
-![IMAGE](images/LANDINGPAGE.png)
-![IMAGE](images/ANOTHERLANDINGPAGE.png)
-![IMAGE](images/RGISTRATIONPAGE.png)
-![IMAGE](images/LOGINPAGE.png)
 
-
-
-### AUTHOR 
-
-- [@SUVAJITKARMAKAR](https://www.github.com/octokatherine)
 
