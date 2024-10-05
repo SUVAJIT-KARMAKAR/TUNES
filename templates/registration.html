@@ -1,0 +1,53 @@
+{% extends 'base.html' %}
+
+{% block title %} TUNES | REGISTRATION {% endblock %}
+
+{% block content %}
+    <section id="registration">
+        <nav>
+            <ul>
+                <li> 
+                    <i class="fa-sharp fa-solid fa-music" style="color: greenyellow;"></i> <h1>TUNES </h1>
+                </li>
+                <li> 
+                    <a href="{{ url_for('explore') }}" id="button"> EXPLORE </a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="header">
+            <h2> REGISTRATION </h2>
+        </div>
+
+        <div class="form-input">
+            <form method="POST" action="{{ url_for('registration') }}" onsubmit="return validateForm()">
+                <label for="name"> NAME </label>
+                <input type="text" name="name" placeholder="ENTER YOUR NAME" required>
+                <label for="age"> AGE </label>
+                <input type="number" name="age" placeholder="ENTER YOUR AGE" required>
+                <label for="sex"> SEX </label>
+                <select name="sex" aria-placeholder="SELECT GENDER" required>
+                    <option value="male"> MALE </option>
+                    <option value="female"> FEMALE </option>
+                </select>
+                <label for="genre"> GENRE </label>
+                <input type="text" name="genre" placeholder="ENTER " required>
+                <label for="email"> EMAIL </label>
+                <input type="email" name="email" placeholder="ENTER YOUR EMAIL" required>
+                <label for="phone_number"> PHONE </label>
+                <input type="tel" name="phone_number" placeholder="ENTER YOUR NUMBER" required>
+                <label for="dob">DOB </label>
+                <input type="date" name="dob" required>
+                <button type="submit" class="button"> REGISTER </button>
+            </form>
+        </div>
+
+        <div class="footer">
+            <h4> @TUNES | 127.0.0.1:8000/suvajitkarmakar/</h4>
+            <a href="{{ url_for('home') }}"><i class="fa-sharp fa-solid fa-music" style="color: black;"></i></a></i>
+        </div>
+
+    </section>
+    <script src="{{ url_for('static', filename='validation.js') }}"></script>
+{% endblock %}
+

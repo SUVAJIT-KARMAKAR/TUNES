@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %} TUNES | EXPLORE {% endblock %}
+
+{% block content %}
+<section id="explore">
+    <div class="header-logo">
+        <i class="fa-sharp fa-solid fa-music" style="color: greenyellow;"></i>
+    </div>
+
+    <div class="footer">
+        <h4> @TUNES | 127.0.0.1:8000/suvajitkarmakar/</h4>
+        <a href="{{ url_for('home')}}"><i class="fa-sharp fa-solid fa-music" style="color: black;"></i></a>
+    </div>
+</section>
+{% endblock %}

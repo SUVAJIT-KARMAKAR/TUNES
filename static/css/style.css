@@ -1,0 +1,1019 @@
+@import url('https://fonts.googleapis.com/css2?family=Micro+5&display=swap');
+
+/* CSS-RESET-SECTION */
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+
+}
+
+/* ############################################################ */
+/* HOME-PAGE-SECTION  -> REGISTRATION PAGE*/
+#registration{
+    width: 100vw;
+    min-height: 100vh;
+
+    background: black;
+    color: white;
+}
+
+#registration nav {
+    padding: 30px 50px;
+}
+
+#registration nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#registration nav ul li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+#registration nav ul li i {
+    scale: 2;
+}
+
+#registration nav ul li h1 {
+    font-family: "Micro 5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+}
+
+#registration nav ul li a {
+    color: white;
+    text-decoration: none;
+    border: 2px solid yellowgreen;
+    border-radius: 30px;
+    padding: 10px 30px;
+    color: grey;
+
+    font-family: "Micro 5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+
+    transition: background-color 0.5s ease;
+}
+
+/* HOME-PAGE-SECTION  -> HOME PAGE*/
+#home-page {
+    width: 100vw;
+    min-height: 100vh;
+
+    background: black;
+    color: white;
+}
+
+#home-page nav {
+    padding: 30px 50px;
+}
+
+#home-page nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#home-page nav ul li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+#home-page nav ul li i {
+    scale: 2;
+}
+
+#home-page nav ul li h1 {
+    font-family: "Micro 5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+}
+
+#home-page nav ul li a {
+    color: white;
+    text-decoration: none;
+    border: 2px solid yellowgreen;
+    border-radius: 30px;
+    padding: 10px 30px;
+    color: grey;
+
+    font-family: "Micro 5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+
+    transition: background-color 0.5s ease;
+}
+
+/* HOME-PAGE-SECTION  -> LOGIN PAGE*/
+#login{
+    width: 100vw;
+    min-height: 100vh;
+
+    background: black;
+    color: white;
+}
+
+#login nav {
+    padding: 30px 50px;
+}
+
+#login nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#login nav ul li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+#login nav ul li i {
+    scale: 2;
+}
+
+#login nav ul li h1 {
+    font-family: "Micro 5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+}
+
+#login nav ul li a {
+    color: white;
+    text-decoration: none;
+    border: 2px solid yellowgreen;
+    border-radius: 30px;
+    padding: 10px 30px;
+    color: grey;
+
+    font-family: "Micro 5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+
+    transition: background-color 0.5s ease;
+}
+
+/* HOME-PAGE-SECTION  -> REGISTRATION-SUCCESS PAGE*/
+#success {
+    width: 100vw;
+    min-height: 100vh;
+
+    background: black;
+    color: white;
+}
+
+#success nav {
+    padding: 30px 50px;
+}
+
+#success nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#success nav ul li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+#success nav ul li i {
+    scale: 2;
+}
+
+#success nav ul li h1 {
+    font-family: "Micro 5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+}
+
+#success nav ul li a {
+    color: white;
+    text-decoration: none;
+    border: 2px solid yellowgreen;
+    border-radius: 30px;
+    padding: 10px 30px;
+    color: grey;
+
+    font-family: "Micro 5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+
+    transition: background-color 0.5s ease;
+}
+
+/* HOME-PAGE-SECTION  -> ADMIN PAGE*/
+#admin {
+    width: 100vw;
+    min-height: 100vh;
+
+    background: black;
+    color: white;
+}
+
+#admin nav {
+    padding: 30px 50px;
+}
+
+#admin nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#admin nav ul li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+#admin nav ul li i {
+    scale: 2;
+}
+
+#admin nav ul li h1 {
+    font-family: "Micro 5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+}
+
+#admin nav ul li a {
+    color: white;
+    text-decoration: none;
+    border: 2px solid yellowgreen;
+    border-radius: 30px;
+    padding: 10px 30px;
+    color: grey;
+
+    font-family: "Micro 5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+
+    transition: background-color 0.5s ease;
+}
+
+/* HOME-PAGE-SECTION  -> EXPLORE PAGE*/
+#explore {
+    width: 100vw;
+    min-height: 100vh;
+
+    background: black;
+    color: white;
+}
+/* ############################################################ */
+
+/* CSS-INTRO-SECTION */
+#home-page .intro {
+    width: 100vw;
+    min-height: 5vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#home-page .intro h4 {
+    color: grey;
+    font-family: "Micro 5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+/* ############################################################ */
+/* CSS-HEADER-SECTION -> HOME PAGE */
+#home-page .header {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    flex-direction: column;
+}
+
+#home-page .header h2 {
+    color: white;
+    font-family: "Micro 5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 90px;
+}
+
+#home-page .header h3 {
+    color: white;
+    font-family: "Micro 5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+
+/* CSS-HEADER-SECTION -> REGISTRATION PAGE */
+#registration .header {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    flex-direction: column;
+}
+
+#registration .header h2 {
+    color: white;
+    font-family: "Micro 5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 90px;
+}
+
+#registration .header h3 {
+    color: white;
+    font-family: "Micro 5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+
+/* CSS-HEADER-SECTION -> REGISTRATION-SUCCESS PAGE */
+#success .header {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    flex-direction: column;
+}
+
+#success .header h2 {
+    color: white;
+    font-family: "Micro 5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 90px;
+}
+
+#success .header h3 {
+    color: grey;
+    font-family: "Micro 5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+
+/* CSS-HEADER-SECTION -> LOGIN-SUCCESS PAGE */
+#login .header {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    flex-direction: column;
+}
+
+#login .header h2 {
+    color: white;
+    font-family: "Micro 5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 90px;
+}
+
+#login .error p span {
+    color: rgb(227, 113, 113);
+    font-family: "Micro 5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+/* CSS-HEADER-SECTION -> ADMIN PAGE */
+#admin .header {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    flex-direction: column;
+}
+
+
+
+#admin .header h2 {
+    color: yellowgreen;
+    font-family: "Micro 5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 90px;
+}
+
+#admin .header h3 {
+    color: grey;
+    font-family: "Micro 5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+
+/* ############################################################ */
+
+
+/* CSS-FLOAT-SECTION*/
+#home-page .float {
+    width: 100vw;
+    min-height: 10vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 30px;
+}
+
+#home-page .float .card {
+    width: 100px;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0px 50px;
+    padding: 10px 90px;
+
+    border: 1px solid yellowgreen;
+    border-radius: 30px;
+
+    background-color: yellowgreen;
+}
+
+#home-page .float .card a {
+    text-decoration: none;
+    color: grey;
+
+    transition: scale 0.5s ease;
+}
+
+
+/* CSS-HEADER-IMAGE */
+#home-page .header-img {
+    width: 100vw;
+    min-height: 30vh;
+
+    margin-top: 90px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#home-page .header-img img {
+    width: 1000px;
+    height: 600px;
+    margin-bottom: 50px;
+
+    background-position: cover;
+
+    border:2px solid yellowgreen;
+    border-radius: 30px;
+
+    filter: blur(2px);
+
+    transition: filter 0.7s ease;
+}
+
+/* ############################################################ */
+/* CSS-FOOTER-SECTION  -> HOME PAGE*/
+#home-page .footer {
+    width: 100vw;
+    min-height: 10vh;
+
+    margin-top: 50px;
+
+    background-color: yellowgreen;
+    color: grey;
+
+    font-family: "Micro 5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+
+}
+
+
+/* CSS-FOOTER-SECTION  -> REGISTRATION PAGE*/
+#registration .footer {
+    width: 100vw;
+    min-height: 10vh;
+
+    margin-top: 50px;
+
+    background-color: yellowgreen;
+    color: grey;
+
+    font-family: "Micro 5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+
+}
+
+/* CSS-FOOTER-SECTION -> LOGIN PAGE */
+#login .footer {
+    width: 100vw;
+    min-height: 10vh;
+
+    background-color: yellowgreen;
+    color: grey;
+
+    font-family: "Micro 5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+
+}
+
+/* CSS-FOOTER-SECTION  -> EXPLORE PAGE*/
+#explore .footer {
+    width: 100vw;
+    min-height: 10vh;
+
+    background-color: yellowgreen;
+    color: grey;
+
+    font-family: "Micro 5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+
+}
+
+/* CSS-FOOTER-SECTION  -> REGISTRATION-SUCCESS  PAGE*/
+#success .footer {
+    width: 100vw;
+    min-height: 10vh;
+
+    background-color: yellowgreen;
+    color: grey;
+
+    font-family: "Micro 5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+
+}
+
+/* CSS-FOOTER-SECTION  -> ADMIN PAGE*/
+#admin .footer {
+    width: 100vw;
+    min-height: 10vh;
+
+    background-color: yellowgreen;
+    color: grey;
+
+    font-family: "Micro 5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+
+}
+/* ############################################################ */
+
+
+/* CSS-HOME-OPTION-CARD-SECTION */
+#home-page .option {
+    width: 100vw;
+    min-height: 20vh;
+
+    margin: 10px 0px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+}
+
+#home-page .option .option-card {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#home-page .option .option-card > i {
+    scale: 2.5;
+    transition: scale 0.6s ease;
+}
+
+/* CSS-EXPLORE-SECTION */
+#explore .header-logo {
+    width: 100vw;
+    min-height: 90vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#explore .header-logo > i {
+    scale: 5;
+}
+
+/* ############################################################ */
+/* CSS-REGISTRATION-PAGE-SECTION */
+#registration .form-input {
+    width: 100vw;
+    min-height: 90vh;
+
+}
+
+#registration .form-input form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    gap: 5px;
+}
+
+#registration .form-input form > label {
+    margin-left: -650px;
+    color: yellowgreen;
+
+    font-family: "Micro 5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+}
+
+#registration .form-input form > input {
+    border: 0;
+    outline: 0;
+
+    width: 45%;
+    padding: 15px 10px;
+
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+
+#registration .form-input form select {
+    border: 0;
+    outline: 0;
+
+    width: 45%;
+    padding: 15px 10px;
+
+    border-radius: 10px;
+
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#registration .form-input form .button {
+    font-family: "Micro 5", sans-serif;
+    font-weight: 400;
+    font-style: bold;
+    font-size: 35px;
+
+    color: grey;
+
+    background-color: yellowgreen;
+    border: 0;
+    outline: 0;
+
+    width: 45%;
+    padding: 15px 0px;
+
+    border-radius: 35px;
+    
+    margin-top: 50px;
+    margin-bottom: 10px;
+
+    transition: width 0.7s ease;
+}
+
+/* CSS-ADMIN-PAGE-SECTION */
+#admin .form-input {
+    width: 100vw;
+    min-height: 90vh;
+    margin-top: 90px;
+
+}
+
+#admin .form-input form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    gap: 5px;
+}
+
+#admin .form-input form > label {
+    margin-left: -650px;
+    color: yellowgreen;
+
+    font-family: "Micro 5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+}
+
+#admin .form-input form > input {
+    border: 0;
+    outline: 0;
+
+    width: 45%;
+    padding: 15px 10px;
+
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+
+#admin .form-input form select {
+    border: 0;
+    outline: 0;
+
+    width: 45%;
+    padding: 15px 10px;
+
+    border-radius: 10px;
+
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#admin .form-input form .button {
+    font-family: "Micro 5", sans-serif;
+    font-weight: 400;
+    font-style: bold;
+    font-size: 35px;
+
+    color: grey;
+
+    background-color: yellowgreen;
+    border: 0;
+    outline: 0;
+
+    width: 45%;
+    padding: 15px 0px;
+
+    border-radius: 35px;
+    
+    margin-top: 50px;
+    margin-bottom: 10px;
+
+    transition: width 0.7s ease;
+}
+
+/* CSS-LOGIN-PAGE-SECTION */
+#login .form-input {
+    width: 100vw;
+    min-height: 70vh;
+    margin-top: 40px;
+    margin-bottom: -90px;
+}
+
+#login .form-input form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    gap: 5px;
+}
+
+#login .form-input form > label {
+    margin-left: -650px;
+    color: yellowgreen;
+
+    font-family: "Micro 5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+}
+
+#login .form-input form > input {
+    border: 0;
+    outline: 0;
+
+    width: 45%;
+    padding: 15px 10px;
+
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+
+
+#login .form-input form .button {
+    font-family: "Micro 5", sans-serif;
+    font-weight: 400;
+    font-style: bold;
+    font-size: 35px;
+
+    color: grey;
+
+    background-color: yellowgreen;
+    border: 0;
+    outline: 0;
+
+    width: 45%;
+    padding: 15px 0px;
+
+    border-radius: 35px;
+    
+    margin-top: 50px;
+    margin-bottom: 10px;
+
+    transition: width 0.7s ease;
+}
+/* ############################################################ */
+
+/* CSS-REGISTRATION-SUCCESS-SECTION */
+#success .success-table {
+    width: 100vw;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#success .success-table table {
+    border: 2px solid white;
+    padding: 20px 50px;
+}
+
+#success .success-table table,th,td {
+    border: 1px solid white;
+    padding: 10px 10px;
+}
+
+#success .success-table table tr > th {
+    color: yellowgreen;
+
+    font-family: "Micro 5", sans-serif;
+    font-weight: 400;
+    font-style: bold;
+    font-size: 25px;
+
+}
+
+/* CSS-ADMIN-PLAYLIST-TABLE-SECTION */
+#admin .success-table {
+    width: 100vw;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+#admin .success-table table {
+    border: 2px solid white;
+    padding: 20px 50px;
+}
+
+#admin .success-table table,th,td {
+    border: 1px solid white;
+    padding: 10px 10px;
+}
+
+#admin .success-table table tr > th {
+    color: yellowgreen;
+
+    font-family: "Micro 5", sans-serif;
+    font-weight: 400;
+    font-style: bold;
+    font-size: 35px;
+
+}
+
+/* COMMON-CSS-PROPERTIES*/
+/* CSS-HOVER-PROPERTIES */
+
+/* ############################################################ */
+/* ############################################################ */
+/* CSS-HOVER-PROPERTIES -> HOMEPAGE HOVER*/
+#home-page nav ul li a:hover {
+    background-color: yellowgreen;
+    cursor: pointer;
+}
+
+/* CSS-HOVER-PROPERTIES -> REGISTRATION HOVER*/
+#registration nav ul li a:hover {
+    background-color: yellowgreen;
+    cursor: pointer;
+}
+
+/* CSS-HOVER-PROPERTIES -> LOGIN PAGE */
+#login nav ul li a:hover {
+    background-color: yellowgreen;
+    cursor: pointer;
+}
+
+/* CSS-HOVER-PROPERTIES -> ADMIN PAGE */
+#admin nav ul li a:hover {
+    background-color: yellowgreen;
+    cursor: pointer;
+}
+/* ############################################################ */
+
+
+#home-page .float .card a:hover{
+    scale: 1.2;
+    cursor: pointer;
+}
+
+#home-page .header-img img:hover {
+    filter: blur(0px);
+    cursor: pointer;
+}
+
+#home-page .option .option-card > i:hover {
+    scale:3;
+    cursor:pointer;
+}
+
+#registration .form-input form .button:hover {
+    width: 40%;
+    cursor: pointer;
+}
+
+#login .form-input form .button:hover {
+    width: 40%;
+    cursor: pointer;
+}
+
+#admin .form-input form .button:hover {
+    width: 40%;
+    cursor: pointer;
+}
+/* ############################################################ */

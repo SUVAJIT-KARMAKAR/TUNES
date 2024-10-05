@@ -1,0 +1,64 @@
+{% extends 'base.html' %}
+
+{% block title %} TUNES | SUCCESS REGISTRATION {% endblock %}
+
+{% block content %}
+    <section id="success">
+        <nav>
+            <ul>
+                <li> 
+                    <i class="fa-sharp fa-solid fa-music" style="color: greenyellow;"></i> <h1>TUNES </h1>
+                </li>
+                <li> 
+                    <a href="{{ url_for('explore') }}" id="button"> EXPLORE </a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="header">
+            <h2> REGISTRATION SUCCESSFUL ! </h2>
+            <h3> THANK YOU FOR REGISTERING </h3>
+        </div>
+
+        <div class="success-table">
+            <table>
+                <tr>
+                    <th>NAME</th>
+                    <td>{{ name }}</td>
+                </tr>
+                <tr>
+                    <th>AGE</th>
+                    <td>{{ age }}</td>
+                </tr>
+                <tr>
+                    <th>SEX</th>
+                    <td>{{ sex }}</td>
+                </tr>
+                <tr>
+                    <th>GENRE</th>
+                    <td>{{ genre }}</td>
+                </tr>
+                <tr>
+                    <th>EMAIL</th>
+                    <td>{{ email }}</td>
+                </tr>
+                <tr>
+                    <th>PHONE</th>
+                    <td>{{ phone_number }}</td>
+                </tr>
+                <tr>
+                    <th>DOB</th>
+                    <td>{{ dob }}</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="footer">
+            <h4> @TUNES | 127.0.0.1:8000/suvajitkarmakar/</h4>
+            <a href="{{ url_for('home') }}"><i class="fa-sharp fa-solid fa-music" style="color: black;"></i></a></i>
+        </div>
+
+    </section>
+
+    </div>
+{% endblock %}

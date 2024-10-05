@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% block title %} TUNES | LOGIN {% endblock %}
+{% block content %}
+    <section id="login">
+        <nav>
+            <ul>
+                <li> 
+                    <i class="fa-sharp fa-solid fa-music" style="color: greenyellow;"></i> <h1> TUNES </h1>
+                </li>
+                <li> 
+                    <a href="" id="button"> EXPLORE </a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="header">
+            <h2> LOGIN </h2>
+            <div class="error">
+                {% if error_message %}
+                    <p class="error"><span>{{ error_message }}</span></p>
+                {% endif %}
+            </div>
+        </div>
+
+        <div class="form-input">
+            <form method="POST" action="{{ url_for('login') }}">
+                <label for="username"> USERNAME </label>
+                <input type="text" name="username" required>
+                <label for="password">PASSWORD </label>
+                <input type="password" name="password" required>
+                <button type="submit" class="button">Login</button>
+            </form> 
+        </div>
+
+        <div class="footer">
+            <h4> @TUNES | 127.0.0.1:8000/suvajitkarmakar/</h4>
+           <a href="{{ url_for('home')}}"><i class="fa-sharp fa-solid fa-music" style="color: black;"></i></a></i>
+        </div>
+
+    </section>
+{% endblock %}
